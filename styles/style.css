@@ -18,6 +18,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
 }
 nav > ul{
     display: flex;
@@ -35,6 +40,9 @@ font-weight: 400;
 }
 .hero-image{
     margin-left: 30px;
+}.special-images{
+    position: absolute;
+    left: 600px;
 }
 .new{
     color: #FF5400;
@@ -43,7 +51,8 @@ font-size: 18px;
 font-weight: 700;
 }
 .nav-title{
-    margin-right: 440px;
+    margin-right: 400px;
+    margin-left: 50px;
 }
 .nav-content{
 display: flex;
@@ -379,6 +388,9 @@ padding: 35px 55px 35px 35px;
     }
     nav > ul{
         display: none;
+    }
+    .special-images{
+        left:300px;
     }
     .banner{
         width: 335px;
