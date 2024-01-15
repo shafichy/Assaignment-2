@@ -150,7 +150,7 @@ margin: 100px auto 0 auto;
     
 }
 .popular-content{
-    width: 50%;
+    /* width: 50%; */
 }
 .popular-head{
     color: #131318;
@@ -197,7 +197,174 @@ font-weight: 800;
 border:none;
 margin-top: 30px;
 }
+/* Destination Section */
+.destination{
+    margin-top: 100px;
+}
+.destination-head{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.destination-description{
+    /* width: 643px; */
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 48px;
+}
+.unique{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap:50px;
+    position: relative;
+}
+ .destination-images{
+    display: flex;
+    justify-content: space-between;
+    width:650px;
+    height: 370px;
+    gap:30px;
+}  
+.destination-images1{
+    display: flex;
+    gap:50px;
+}
+.destination-images2{
+    display: flex;
+    gap:50px;
+} 
+.maldives{
+    position: absolute;
+    left: 300px;
+    top:170px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    font-family: Mulish;
+}
+.indo{
+    position: absolute;
+    right:300px;
+    top:175px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: normal;
+    font-family: Mulish;
+}
+.sri{
+    position: absolute;
+    top:600px;
+    right: 1150px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+}
+.ame{
+    position: absolute;
+    top:600px;
+    right:600px;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+}
+.kash{
+    position: absolute;
+    top:600px;
+    right: 110px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.bang{
+    position: absolute;
+    top:1000px;
+    right: 1100px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+.banda{
+    position: absolute;
+    top:1000px;
+    right: 400px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+/* Choose Section */
+.choose{
+    margin-top: 100px;
+}
+.choose-head{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.choose-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-bottom: 48px;
+}
+.choose-item{
+    display: flex;
+    gap:200px;
+}
+.choose-card1{
+    width: 750px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 35px 55px 35px 35px;
+}
+.card-head{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.choose-card2{
+    width: 750px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+border-radius: 16px;
+padding: 35px 55px 35px 35px;
+}
+.choose-item-last{
+    margin-left: 300px;
+    margin-top: 24px;
+    width: 750px;
+height: 284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 35px 55px 35px 35px;
 
+}
 /* Media query */
 @media screen and (max-width:600px){
     nav img{
@@ -218,7 +385,7 @@ margin-top: 30px;
 height: 520px;
 background-size: cover;
 background-repeat: no-repeat;
-margin-left: 20px;
+margin-left: 30px;
 background-position: center;
     }
     .banner-content{
@@ -240,15 +407,18 @@ margin-left: 0;
     }
     .banner-dropdown{
         display: flex;
-width: 287px;
-padding: 16px;
+width: 250px;
+padding: 18px;
 flex-direction: column;
 align-items: flex-start;
 gap: 16px;
 align-items: center;
+margin-left: 20px;
+margin-top: 0;
     }
     .shafi{
         left: 200px;
+        top:210px;
     }
     .rafi{
         left: 200px;
@@ -258,7 +428,133 @@ align-items: center;
         top:303px;
         right: 210px;
     }
+ .popular{
+    flex-direction: column;
+ }
+ .popular-head{
+    font-size: 20px;
+ }
+
+ .popular-description, .popular-list, .popular-last{
+    font-size: 14px;
+    width: 335px;
+ }
+ .popular-image img{
+    width: 335px;
+    height: 342px;
+ }
+ .popular-content, .popular-image{
+    padding: 30px;
+ }
+
+ .destination-head{
+    font-size: 20px;
+ }
+ .destination-description{
+    width: 309px;
+    font-size: 14px;
+    margin-left: 35px;
+ }
+ .destination{
+    margin: 0;
+ }
+ .unique{
+    grid-template-rows: 1fr;
+ }
+ .destination-images, .destination-images1, .destination-images2{
+    flex-direction: column;
+ }
+ .destination-images, .destination-images1, .destination-images2 img{
+    width: 335px;
+    height: 175px;
+ }
+
+.destination-images{
+    margin-bottom: 150px;
+    padding: 30px;
 }
+.destination-images1{
+    margin-bottom: 650px;
+    padding: 30px;
+}
+.destination-images2{
+    padding: 30px;
+}
+.maldives{
+    font-size: 20px;
+    top:100px;
+    left: 150px;
+}
+.indo{
+    font-size: 20px;
+    top:300px;
+    left:150px;
+}
+.sri{
+    font-size:20px;
+    left:150px;
+}
+.ame{
+    font-size:20px;
+    top:850px;
+    left:120px;
+}
+.kash{
+    font-size: 20px;
+    top:1200px;
+    right: 200px;
+}
+.bang{
+    font-size:20px;
+    top:1470px;
+    left:130px;
+}
+.banda{
+    font-size: 20px;
+    top:1700px;
+    left: 130px;
+}
+
+/* Choose Section */
+.choose{
+    margin:0;
+}
+.choose-item{
+    flex-direction: column;
+    gap:20px;
+}
+.choose-content{
+padding:20px;
+}
+.choose-head{
+    font-size: 20px;
+}
+.choose-description{
+    width: 309px;
+    font-size: 14px;
+    margin-left: 25px;
+}
+.card-head{
+    font-size: 28px;
+}
+.card-description{
+    font-size:14px;
+}
+.choose-item img{
+width:48px;
+height: 48px;
+}
+.choose-card1, .choose-card2, .choose-item-last{
+    width: 260px;
+    height: 250px;
+    margin-left: 22px;
+}
+ 
+}
+
+
+
+
 @media screen and (min-width:600px) and (max-width:2200px){
     .special-images{
         display: none;
