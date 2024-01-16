@@ -1,19 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Mulish:wght@400;600;700;800&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Sora:wght@400;600;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+
 /* Shared Files */
 *{
     margin: 0;
     padding:0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Mulish:wght@400;600;700;800&family=Open+Sans:wght@400;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;1,700&family=Sora:wght@400;600;700;800&family=Work+Sans:wght@400;600;700;800&display=swap');
 
 body{
 font-family: 'Mulish', sans-serif;
 }
 header{
     max-width: 1440px;
-    /* min-width: 992px; */
     margin: 50px auto;
     background: #FFF;
-    /* border:1px solid blue; */
 }
 nav{
     display: flex;
@@ -350,7 +350,7 @@ margin-bottom: 48px;
 }
 .choose-item{
     display: flex;
-    gap:200px;
+    gap:100px;
 }
 .choose-card1{
     width: 750px;
@@ -532,7 +532,7 @@ font-weight: 800;
 border: none;
 }
 .perfect-video{
-    margin-left: 150px;
+    margin-left: 70px;
 }
 
 /* Connect Section */
@@ -735,6 +735,11 @@ font-size: 16px;
 font-weight: 300;
 line-height: normal;
 }
+.foot-span{
+    color: #FF5400;
+font-size: 32px;
+font-weight: 800;
+}
 
 
 
@@ -778,6 +783,9 @@ background-repeat: no-repeat;
 margin-left: 30px;
 background-position: center;
     }
+    .banner-box{
+        width: 200px;
+    }
     .banner-content{
         padding: 10px;
     }
@@ -815,8 +823,11 @@ margin-top: 0;
         top:130px;
     }
     .chy{
-        top:303px;
-        right: 210px;
+        top:305px;
+        right: 190px;
+    }
+    main{
+        margin-top: 0;
     }
  .popular{
     flex-direction: column;
@@ -844,6 +855,7 @@ margin-top: 0;
     width: 309px;
     font-size: 14px;
     margin-left: 35px;
+    margin-bottom: 0;
  }
  .destination{
     margin: 0;
@@ -927,6 +939,7 @@ padding:20px;
     width: 309px;
     font-size: 14px;
     margin-left: 25px;
+    margin-bottom: 0;
 }
 .card-head{
     font-size: 28px;
@@ -949,6 +962,9 @@ height: 48px;
     margin-left: 22px;
 }
 /* discount section */
+.discount{
+    margin-top: 20px;
+}
 .discount-content{
     padding:20px;
 }
@@ -959,6 +975,7 @@ height: 48px;
     font-size: 14px;
     width: 309px;
     margin-left: 20px;
+    margin-bottom: 0;
 }
 .discount-card img{
     width: 350px;
@@ -973,6 +990,10 @@ height: 48px;
 }
 .white-card-content{
     margin-top: 10px;
+    
+}
+ .day, .max, .country{
+    gap:0;
 }
 .price{
     font-size: 16px;
@@ -989,18 +1010,21 @@ width: 310px;
 height: 290px;
 top:60px;
 left:40px;
+padding-right: 10px;
 }
 .white-card1{
     width: 310px;
     height: 290px;
     left: 40px;
     top:60px;
+    padding-right: 10px;
 }
 
 
 /* Perfect Section */
 .perfect{
     flex-direction: column;
+    margin-top: 0;
 }
 .perfect-content{
     padding:30px;
@@ -1132,6 +1156,9 @@ left:40px;
 }
  .foot-reserve{
     padding-bottom: 50px;
+ }
+ .foot-span{
+    font-size: 21px;
  }
 }
 
