@@ -247,6 +247,7 @@ margin-bottom: 48px;
     display: flex;
     gap:50px;
 }
+
 .destination-images2{
     display: flex;
     gap:50px;
@@ -462,8 +463,94 @@ font-weight: 400;
     bottom: 50px;
     left: 380px;
 }
+.foot{
+    margin-top: 100px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    max-width: 2000px;
+    max-height: 602px;
+}
+.foot-head{
+    color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+margin-top: 100px;
+color: var(--Dark-01, #131318);
+font-size: 32px;
+font-weight: 800;
+}
+.foot-content{
+    display:flex;
+    /* text-align: center; */
+    align-items: center;
+    gap:16px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.foot-content img{
+    margin-top: 100px;
+    width: 45px;
+    height: 50px;
+}
+.foot-banner{
+    display: flex;
+    justify-content: center;
+}
+.foot-description{
+    width: 769px;
+    margin-top: 15px;
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+line-height: 26px; /* 162.5% */
+}
+.foot-image{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+.foot-reserve{
+    /* margin-top: 100px; */
+    padding-bottom: 100px;
+}
+.hori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 500px;
+}
+.foot-last{
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: normal;
+}
+
+
+
+
+
+
+
+
 /* Media query */
 @media screen and (max-width:600px){
+    body{
+        overflow: none;
+        max-width: 500px;
+    }
+    nav{
+        max-width: 400px;
+    }
     nav img{
         width: 28.724px;
         height: 33.516px;
@@ -574,9 +661,12 @@ margin-top: 0;
     padding: 30px;
 }
 .destination-images1{
-    margin-bottom: 650px;
+    margin-bottom: 580px;
     padding: 30px;
 }
+.destination-images1 .kash-mir{
+    height: 250px;
+    }
 .destination-images2{
     padding: 30px;
 }
@@ -597,21 +687,21 @@ margin-top: 0;
 .ame{
     font-size:20px;
     top:850px;
-    left:120px;
+    left:150px;
 }
 .kash{
     font-size: 20px;
-    top:1200px;
-    right: 200px;
+    top:1150px;
+    right: 180px;
 }
 .bang{
     font-size:20px;
-    top:1470px;
+    top:1400px;
     left:130px;
 }
 .banda{
     font-size: 20px;
-    top:1700px;
+    top:1640px;
     left: 130px;
 }
 
@@ -694,8 +784,41 @@ height: 48px;
 .spa-travel{
     font-size: 15px;
 }
-
- 
+.foot-content img{
+    width: 30px;
+    height: 33px;
+    margin-top: 20px;
+}
+.foot-head{
+    font-size: 22px;
+}
+.foot-description{
+    font-size: 15px;
+    width: 287px;
+}
+.foot-last{
+    font-size: 14px;
+}
+.foot{
+    margin-top: 20px;
+}
+.foot-content{
+    margin-top: 0;
+    margin-right: 20px;
+}
+.foot-head{
+    margin-top: 20px;
+}
+.foot-description{
+    margin-right: 10px;
+}
+.hori{
+    width: 330px;
+    margin-left: 25px;
+}
+ .foot-reserve{
+    padding-bottom: 50px;
+ }
 }
 
 
@@ -703,7 +826,7 @@ height: 48px;
 
 @media screen and (min-width:992px) and (max-width:2200px){
     .special-images{
-        display: none;
+        display:none;
     }
     .nav-title{
         margin-right: 0;
