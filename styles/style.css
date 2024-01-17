@@ -152,7 +152,7 @@ font-weight: 700;
 /* Main Section */
 main{
 max-width: 1440px;
-margin: 100px auto 0 auto;
+margin: 70px auto 0 auto;
 }
 /* popular Section */
 .popular{
@@ -488,6 +488,19 @@ margin-left: 30px;
     display: flex;
     align-items: center;
     gap:5px;
+}
+.package{
+    width: 210px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 800;
+border:none;
+padding:5px 10px;
+margin-top: 30px;
 }
 /* Perfect Section */
 .perfect{
@@ -1019,7 +1032,9 @@ padding-right: 10px;
     top:60px;
     padding-right: 10px;
 }
-
+.package{
+    display: none;
+}
 
 /* Perfect Section */
 .perfect{
